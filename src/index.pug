@@ -1,0 +1,147 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    meta(name='Description', content='d-element')
+    title Digital element
+  body
+    .background.background--back_gradient
+      header.header
+        a.header__logo(href='#')
+          img(src='./assets/images/logo_header__desktop.svg', alt='Logo', width='48', height='48')
+        button.header__button(type='button', aria-label='Open menu')
+          span.header__button_icon(aria-hidden='true')
+      section.hero
+        .hero__info
+          h1.hero__title New Automation Tool for Your Home
+          p.hero__text
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.
+          a.hero__link.button.button_hover_1(href='#') See Our Project
+    main
+      section.mission
+        h2.mission__title.title What we&nbsp;do&nbsp;to&nbsp;help our client grow in digital era,
+        ul.mission__list
+          li.mission__item.card.card--big_img
+            .card__image
+              img(src='./assets/images/a_1__desktop.svg', alt='lady with a phone', width='255', height='208')
+            h3.card__title Bring Technology To&nbsp;Your Comfrotable Home
+            p.card__text
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            a.card__link(href='#')
+              | Learn more
+              span
+                svg(width='16', height='16', viewBox='0 0 16 16', fill='none', xmlns='http://www.w3.org/2000/svg')
+                  path(d='M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z', fill='#5A98D0')
+          li.mission__item.card
+            .card__image.card__image--man
+              img(src='./assets/images/a_2__desktop.svg', alt='man with a contract', width='192', height='132')
+            h3.card__title Make Your business To&nbsp;Be Better Famous In&nbsp;Internet
+            p.card__text
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            a.card__link(href='#')
+              | Learn more
+              span
+                svg(width='16', height='16', viewBox='0 0 16 16', fill='none', xmlns='http://www.w3.org/2000/svg')
+                  path(d='M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z', fill='#5A98D0')
+          li.mission__item.card
+            .card__image.card__image--woman
+              img(src='./assets/images/a_3__desktop.svg', alt='lady with laptop', width='171', height='132')
+            h3.card__title Build Your Digital Product That Suitable For Your Need
+            p.card__text
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            a.card__link(href='#')
+              | Learn more
+              span
+                svg(width='16', height='16', viewBox='0 0 16 16', fill='none', xmlns='http://www.w3.org/2000/svg')
+                  path(d='M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z', fill='#5A98D0')
+    .background.background--back_1
+      section.clients
+        .clients__inner
+          h2.clients__title.title.title--light Our Beloved Client
+          p.clients__text
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        ul.clients__list.table
+          li.table__item
+            a.table__link.button_hover_2(href='#')
+              | LOGO CLIENT 1
+          li.table__item
+            a.table__link.button_hover_2(href='#') LOGO CLIENT 2
+          li.table__item
+            a.table__link.button_hover_2(href='#') LOGO CLIENT 3
+          li.table__item
+            a.table__link.button_hover_2(href='#') LOGO CLIENT 4
+          li.table__item
+            a.table__link.button_hover_2(href='#') LOGO CLIENT 5
+          li.table__item
+            a.table__link.button_hover_2(href='#') LOGO CLIENT 6
+          li.table__item
+            a.table__link.button_hover_2(href='#') LOGO CLIENT 7
+          li.table__item
+            a.table__link.table__link--more.button_hover_2(href='#') More Client
+      footer.footer.background__back_2
+        .footer__contacts.contacts
+          .contacts__info
+            h2.contacts__title.title.title--light Intersted to&nbsp;work with our team?
+            p.contacts__text
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          a.contacts__button.button.button_hover_1(data-toggle='modal', href='#') Let&rsquo;s Talk
+        .footer__inner
+          .footer__box
+            .footer__info
+              a.footer__logo(href='#')
+                img(src='./assets/images/logo_footer__desktop.svg', alt='Logo', width='48', height='48')
+                p Afrianska
+              ul.footer__list
+                li.footer__item
+                  span.footer__number A.
+                  p.footer__contact Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                li.footer__item.footer__item--phone
+                  span.footer__number T.
+                  a.footer__contact(href='tel:+62-812-7313-4321') +62-812-7313-4321
+                li.footer__item
+                  span.footer__number E
+                  a.footer__contact(href='mailto:hello.afrian@gmail.com') hello.afrian@gmail.com
+            .footer__nav
+              h3.footer__subtitle About&nbsp;US
+              a(href='#') About
+              a(href='#') What We&nbsp;Do
+              a(href='#') Project
+              a(href='#') How It&nbsp;Work With&nbsp;Us
+            .footer__nav
+              h3.footer__subtitle Follow&nbsp;US
+              a(href='#') Instagram
+              a(href='#') Facebook
+              a(href='#') LinkedIn
+              a(href='#') Youtube
+          p.footer__copyright 2019&nbsp;&copy; Afrianska. All rights reserved
+    #popup
+      section.modal.modal-main
+        .modal__content.form
+          h2.modal__title SEND US&nbsp;MESSAGE
+          form#form(action='#', novalidate='')
+            button(data-close='close', type='reset', aria-label='Close')
+            label(for='your_name') Full Name
+            input#your_name(type='text', placeholder='Your Name', autofocus='')
+            span#your_name--span
+            label(for='your_email') Email
+            input#your_email(type='email', placeholder='Your Email')
+            span#your_email--span
+            label(for='your_message') Message
+            textarea#your_message(placeholder='Your Message')
+            span#your_message--span
+            button#profile-submit(type='submit' ) SUBMIT
+      section.modal.modal-success
+        .modal__content.message.message--success
+          h2.visually_hidden Message sent
+          img(src='./assets/images/tag320.png', alt='Logo', width='128', height='128')
+          p.message__text We've received your message. Thank you!
+          button.message__btn.button.button_hover(data-close='close', type='button') Close
+      section.modal.modal-error
+        .modal__content.message.message--error
+          button.message__close(data-close='close', type='button', aria-label='Close')
+          h2.visually_hidden Message not delivered
+          img(src='./assets/images/img-404-320.png', alt='Logo', width='128', height='128')
+          p.message__text A connection error has occurred.
+          button.message__btn.button.button_hover(data-close='close', type='button') Try letter

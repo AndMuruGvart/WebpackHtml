@@ -1,0 +1,15 @@
+{
+  "stylelint.validate": ["css", "scss"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  "eslint.enable": true,
+  "eslint.workingDirectories": [
+    {
+      "directory": "src",
+      "changeProcessCWD": true
+    }
+  ],
+}
+

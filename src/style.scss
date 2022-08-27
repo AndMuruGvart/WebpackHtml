@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import '/src/scss/components/normalize';
+
+@import '/src/scss/abstracts/variables';
+@import '/src/scss/abstracts/mixin';
+@import '/src/scss/abstracts/visually_hidden';
+@import '/src/scss/abstracts/animations';
+@import '/src/scss/font/fonts';
+@import '/src/scss/components/additional';
+@import '/src/scss/components/background';
+@import '/src/scss/components/container';
+@import '/src/scss/components/button';
+@import '/src/scss/components/title';
+@import '/src/scss/components/modal';
+@import '/src/scss/components/header';
+@import '/src/scss/components/footer';
+@import '/src/scss/components/hero';
+@import '/src/scss/components/mission';
+@import '/src/scss/components/clients';
+@import '/src/scss/components/contacts';
+@import '/src/scss/components/message';

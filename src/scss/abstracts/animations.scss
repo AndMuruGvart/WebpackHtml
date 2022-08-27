@@ -1,0 +1,105 @@
+@keyframes button_hover_1 {
+  16.65% {
+    transform: translate(8px, 8px);
+    transform: translate(8px, 8px);
+  }
+
+  33.3% {
+    transform: translate(-6px, -6px);
+    transform: translate(-6px, -6px);
+  }
+
+  49.95% {
+    transform: translate(4px, 4px);
+    transform: translate(4px, 4px);
+  }
+
+  66.6% {
+    transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  83.25% {
+    transform: translate(1px, 1px);
+    transform: translate(1px, 1px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes button_hover_2 {
+  50% {
+    transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes open_modal {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes close_modal {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  80% {
+    transform: translateY(-25px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+}
+
+@keyframes open_overlay {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes close_overlay {
+  0% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
